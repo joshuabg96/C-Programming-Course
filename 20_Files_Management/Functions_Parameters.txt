@@ -1,0 +1,23 @@
+We have some functions that work to create, read or manipulate text or binary files
+some of that functions are the following:
+fopen()                   Opens a file 
+fclose()                  Close a file
+fgets()                   Read a line of a file
+fputs()                   Write a string in the file
+fseek()                   Look a specific byte in the file
+fprintf()                 Write in the file with format
+fscanf()                  Input with format in the file
+feof()                    Returns true if it reachs the end of the file
+ferror()                  Return true if an error happens
+rewind()                  locate the position pointer at the start of the file
+remove()                  Erase the file
+fflush()                  Erase the content of a file
+
+We can open a file in a different modes, depending what we want to do with it
+r                Read, the file have to exist
+w                Write, if the file do not exist it is created, if it does, overwrite the content
+a                Write at the end of the file, if it does not exist it is created
+rb               Binary, to read
+r+               Read and Write, the file have to exist
+w+               Create a file to write, if it exist overwrite the contet
+rb+              Binary, to update, read and write
