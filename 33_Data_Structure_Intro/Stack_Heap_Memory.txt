@@ -1,0 +1,19 @@
+Stack Memory:
+Stack memory is a region of memory used to store temporary and local data that is automatizally crated and destroyed as functions or code block enered and exited.
+
+Characteristics:
+- LIFO (Last In, First Out) organization: Stack Memory follows the principle where the last price of data added is the first to be removed
+- Limited size: The stack has a predefinied size and if more data is stored thatn allowed a Stack Overflow error ocurrs
+- Speed: Operations on the stack are extremely fast due to its structure and automatic management.
+- Primary sue: It stores local variables, primitive data types and return addresses for functions
+- Automatic allocation: Memory is automatically allocated when a function is called and freed when the function exits.
+
+
+Heap Memory:
+It is a larger, more flexible region used for dynamic memory allocation, where memory is explicitly reserved during runtime, and the programmer must manage it.
+
+Characteristics:
+- Dynamic allocation: The prgorammer directly controls heap memory, allowing allocation and deallocation as needed. This is sueful for data structures whose size is not know ahead of time as arrays or lists.
+- No strict order: The heap does not follow a strict order of storage or retrieval.
+- Larger size: The heap generally has more space available than stack but allocation is slower dut to the need to search for a free memory block.
+- Manual deallocation: memory allocated on the heap must be manually freed byt the programmer. Failing to do so can cause memory leaks.

@@ -1,0 +1,31 @@
+Dynamic linear data structures are data structures in which elements are organized sequentially (linearly) and their size can change dynamically during runtime. This means that elements can be added or removed without knowing the structure’s size in advance, unlike static structures such as fixed-size arrays.
+
+Characteristics:
+- Dynamic growth: The structure's size can increase or decrease during program execution, allowing efficient memory management.
+- Sequential access: Elements are arranged in a linear order and are accessed sequentially.
+- Flexible memory management: These structures typically use Heap memory for dynamic space management, as opposed to Stack memory, which is more limited in size.
+
+List vs Array:
+List and array is very similiar however the List has one more characteristic.
+Both's characteristic:
+- Group of elements
+- Element of the same type
+- elements with position.
+
+Extra List characteristic:
+- It is a flexible structure.
+
+Linked lists are a type of dynamic data structure where elements are organized sequentially, but unlike arrays, they are not stored contiguously in memory. Instead, each element (or node) contains two main parts:
+
+- Data: The value or information stored in the node.
+- Pointer or reference: A link that points to the next node in the list.
+
+Linked List Type:
+- Singly Linked List: 
+    - Each node has a pointer that points to the next node in the sequence, last one points to null indicating the end of the list.
+- Doubly Linked List: 
+    - Each node has two pointers, one pointing to the next node and another pointing to the previos node, the frist node's previous pointer is NULL and the lsat node's next pointer is null
+- Circular Singly Linked List:
+    - Similar to a singly linked list, but the last node points back to the first node, creating a loop
+- Circular Doubly linked list:
+    - Similar to a doubly linked list but the last node points to the first node, and the fisrt node points to the last forming a cycle in both directions.

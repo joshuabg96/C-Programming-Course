@@ -1,0 +1,22 @@
+Abstract Data:
+An Abstract Data is a structure that encapsulate data with defined operations on that data, but hide the implementation details.
+
+Example: 
+- Printf()
+- Operations (+, -, *, /, etc.)
+
+Abstract Layers:
+This term refers to layers of abstraction in a software system, where each layer provides a well-defined interface to interact with the underlying layers, hiding implementation details.
+
+Abstract Data Type (ADT):
+Are data structures that define operations without specifying their concrete implementation
+Example:
+- List: An ordered sequence of elements where each element has a position
+- Stack: A LIFO (Last In, First Out) data structure, where the Last element added is the first to be removed
+- Queue: FIFO ( First In, First Out) data structure where the first element added is the first to be removed
+- Priority Queue: Similar Queue but elements have an associated priority, and the element with the highest priority is processed first
+- set: A strcuture that stores unique elements without a particular order
+- Dictionary or Map: Stores kay-value pairs, where eachkey is unique and is used to acess the assiciated value
+- Tree: A hierarchical structure consisting of nodes connected by edges, where each node can have multiple childresn but only one parent.
+- Graph:A structure consisting of nodes (Vertices) and edges ( connections between nodes), which can be directed or undirected.
+- Hash Table: A data structure that associates key with values using a hash function, allowing for fast access.
