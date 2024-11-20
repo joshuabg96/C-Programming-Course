@@ -1,0 +1,14 @@
+Main Memory:
+    The memory is divided in many bytes that have a direction.
+    It is divided in 3 sections
+        Stack: It is reserved to stored local and temporal variables during the execution of the 
+        function, it works as "Last in First Out" LIFO, that means that last variable added 
+        will be first eliminated
+        Heap: It is used to store bigger objects and variables or that will be needed more time
+        Code Section: Where the code is stored
+How to use the Memory
+    All the variables that you create directly in the code, as int float, etc are static 
+    and will be stored in stack memory.
+    The main function and all the functions that you have created will be added in Code section
+    Heap Memory is not organized and you have to request the memory when you are going to use it
+    and as soon as you finish to use it, you have to free the memory.

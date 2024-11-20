@@ -1,0 +1,15 @@
+Physical Data Structure: They are called physical Data structures because this data structures
+manage the memory and store information in the memory.
+    Array: They are data that store the elements side by side in the memory and 
+    it is located statically
+    Linked List: They are data structures that every element contains a value and a pointer to 
+    the next node in the list, this structures is not stored continuous, in other hand
+    can be stored in differents memory allocations and linked by pointers.
+
+Logical Data Structure: They are as the rules that you have to follow to get and set the data in 
+Physical data structures
+    Stack (Pilas) LIFO: Lineal
+    Queues (Colas) FIFO: Lineal
+    Trees (Arboles) : No Lineal
+    Graphs (Grafos): No Lineal
+    Hash Table: 
