@@ -1,0 +1,26 @@
+Array vs Linked list
+
+Array is a structure that has some limitation as:
+- You can not change the array size
+- Data are stored sequencially in memory
+
+to avoid this array limitations we can use Linked List.
+
+Linked List types:
+- Singly linked list: Each node has a link to the next node
+- Doubly linked list: Each node has links to both the previous and the next.
+- Circular Singly linked list: Tha last node is connected back to the fisrt node, forming a loop
+- Circular Dobly linked list: Each node has links to both the previous and the next, and the last node is connected back to the first node, forming a loop
+
+The node is the scential base for the linked lists it contains 1 data and 1 reference to another node
+Every node can be stored at random memory location, so it is not necessary to have sequence memory data locations.
+
+Head is the first node of the list
+Tail is the last node of the list
+
+The operations that a linked list can have are the following
+CRUD Opreations:
+Create
+Read
+Update
+Delete

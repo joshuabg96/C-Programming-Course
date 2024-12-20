@@ -1,0 +1,15 @@
+A linked list is a data structure that consist of a collection of elements, called nodes, where each node contains two main parts:
+- The data: Information stored in the node
+- The link: A reference or pointer to the next node in the sequence.
+
+Exist four types of linked lists:
+- Singly linked list: Each node has a link to the next node
+- Doubly linked list: Each node has links to both the previous and the next.
+- Circular Singly linked list: Tha last node is connected back to the fisrt node, forming a loop
+- Circular Dobly linked list: Each node has links to both the previous and the next, and the last node is connected back to the first node, forming a loop
+
+CRUD Opreations:
+Create
+Read
+Update
+Delete
