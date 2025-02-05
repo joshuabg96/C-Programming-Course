@@ -3,7 +3,7 @@
 
 int main()
 {
-    int value, flag = 9, index;
+    int value, flag = 10, index;
 
     printf("This program uses linked list to evaluate operations \n");
 
@@ -72,7 +72,7 @@ int main()
             scanf("%d", &value);
             DeleteVal(&NewList, value);
             break;
-        case 0:
+        case 9:
             flag = 0;
             break;
 
