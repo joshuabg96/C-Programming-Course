@@ -1,0 +1,16 @@
+Tree: hierarchical data structure used to organize elements in a parent-child relationship.
+It consists of nodes connected by edges and follows specific rules
+
+Characteristics:
+- Non lineal structure
+
+Main components of a tree:
+- Node: Each element in th tree containing data and possibily child ndes.
+- Root: The topmost node in the tree with no parent
+- Child: A node directy connected as a descendant of another node
+- Parent: A node with at least one child
+- Leaf: A node with no children
+- Level: The depth of a node in the tree, starting from the root (level 0)
+- Height: The length of the longest path from the root to a Leaf
+- Subtree: Any node along with its descendants forms a Subtree
+- Degree: The number of children a node has.
