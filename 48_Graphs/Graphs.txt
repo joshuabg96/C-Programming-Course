@@ -1,0 +1,20 @@
+Graphs: are fundamental data structure in computer science and mathematics that represent
+relathionships between objects. They consist of:
+    - Nodes: Represent entities or points in the Graphs 
+    - Edges: Represent the connection between nodes. They can be directed or undirected.
+
+Types of Graphs:
+    - Directed Graphs (Digraphs)
+        - Edges have a specific direction (A -> B)
+        - Used in models like flow networks or web page ranking
+    - Undirected Graphs
+        - Edges have no direction; relationships are bidirectional (A-B)
+        - Example: Friend connections in social networks.
+    - Weighted Graphs
+        - Edges have an associated weight or cost.
+        - Example: Road maps with distances or travel times
+    - Unweighted Graphs
+        - All edges have the same weight (or none)
+    - Cyclic and Acyclic Graphs
+        -Cyclic: Contains cycles (You can return to a node)
+        -Acyclic: Has no cycles
